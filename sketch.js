@@ -1,7 +1,7 @@
 
 var backgroundImage
 var food 
-var CalorieState 
+var  CalorieState
 
 
 function preload(){
@@ -18,13 +18,15 @@ function setup() {
   form = new Form()
   form.display();
 
-  
+  food=new Food()
 
   
   
 }
 
 function draw() {
-  background(backgroundImage);  
+  background(backgroundImage); 
+  console.log(CalorieState)
+ 
   drawSprites();
 }
