@@ -29,7 +29,7 @@ class Form{
             greeting.html("The food that you have chosen is " + name)
             greeting.position(130,160)
             
-        food = new Food()
+      
 
             food.getCalorie(name)
         })
